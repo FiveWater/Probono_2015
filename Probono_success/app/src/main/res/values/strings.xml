@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Probono</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_link_to_register">아직 회원이 아니신가요? \n 회원가입창으로 이동합니다!</string>
+    <string name="btn_link_to_login">이미 회원이십니다! \n 로그인화면으로 이동합니다~</string>
+
+    <string name="action_settings">설정</string>
+    <string name="GPS">GPS 설정</string>
+    <string name="logout">로그아웃</string>
+    <string name="delete">회원탈퇴</string>
+</resources>

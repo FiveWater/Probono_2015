@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imgView"
+        android:layout_below="@+id/btnUpload"
+        android:layout_toRightOf="@+id/btnUpload"
+        android:layout_toEndOf="@+id/btnUpload"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+
+        android:textSize="35dp"
+        android:id="@+id/topText"
+        android:gravity="center"
+        android:background="@drawable/backgroundcolor"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnPhone"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:src="@drawable/phonebook_1"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitXY"/>-->
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnUpload"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="134dp"-->
+            <!--android:text="+"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:background="@drawable/backgroundcolor" -->
+            <!--/>-->
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnFriend"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:paddingBottom="6dp"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:src="@drawable/friend"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitXY"/>-->
+
+</LinearLayout>
+
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="+"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        android:id="@+id/btnUpload"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/settings"
+        android:src="@drawable/setting"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        />
+
+
+
+</RelativeLayout>
+

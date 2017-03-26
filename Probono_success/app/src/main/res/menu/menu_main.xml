@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--xmlns:yourapp="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--tools:context=".AlbumActivity">-->
+
+    <!--<item android:id="@+id/action_settings"-->
+        <!--android:title="@string/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never" />-->
+    <!-- -->
+    <item
+        android:id="@+id/More"
+        android:title="More"
+        android:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/GPS"
+                android:title="@string/GPS"
+                android:showAsAction="ifRoom|withText"
+                />
+            <item
+                android:id="@+id/logout"
+                android:title="@string/logout"
+                android:showAsAction="ifRoom|withText"
+                />
+            <item
+                android:id="@+id/delete"
+                android:title="@string/delete"
+                android:showAsAction="ifRoom|withText"
+                />
+
+        </menu>
+    </item>
+
+</menu>
